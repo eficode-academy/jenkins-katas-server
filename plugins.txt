@@ -1,4 +1,5 @@
 blueocean-bitbucket-pipeline:1.22.0
+configuration-as-code:latest
 matrix-auth:2.5
 blueocean-pipeline-editor:1.22.0
 plain-credentials:1.7
