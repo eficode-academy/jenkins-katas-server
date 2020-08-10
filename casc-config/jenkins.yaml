@@ -1,6 +1,6 @@
 jenkins:
   systemMessage: "Jenkins says hello world :)\n\n"
-  numExecutors: 1
+  numExecutors: 2
   mode: NORMAL
   scmCheckoutRetryCount: 3
   labelString: "master-label"
