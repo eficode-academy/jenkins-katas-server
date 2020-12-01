@@ -11,3 +11,4 @@ configuration-as-code:latest
 ssh-agent:latest
 bouncycastle-api:latest
 blueocean:latest
+swarm:latest
