@@ -4,8 +4,6 @@ LABEL maintainer="sofus.albertsen@eficode.com"
 USER root
 RUN curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 RUN usermod -aG docker jenkins
-RUN  curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-RUN chmod +x /usr/local/bin/docker-compose
 ENV JENKINS_HOME=/var/jenkins_home
 ARG JAVA_OPTS
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false ${JAVA_OPTS:-}"
